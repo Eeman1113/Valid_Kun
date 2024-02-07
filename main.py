@@ -23,7 +23,6 @@ def notify(message):
         timeout = 30,
     )
 
-
 while True:
     if time.strftime('%M') == '00':
         notify(gen('Give me validation and motivation to get through my day. (give a simple paragraph of 25 words as output.'))
